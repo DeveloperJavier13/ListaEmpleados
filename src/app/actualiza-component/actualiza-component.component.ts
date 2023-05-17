@@ -61,7 +61,7 @@ actualizaEmpleado(){
     } else {
       this.empleado.eliminarEmpleado(this.indice);
 
-    this.router.navigate(['']);
+      this.router.navigate(['']);
     }
   } 
   

@@ -17,12 +17,7 @@ export class EmpleadosService {
     this.empleados = misEmpleados;
   }
 
-  empleados:Empleado[]=[];/* 
-    new Empleado("Ricardo", "Poxtan", "Director",10000),
-    new Empleado("Javier", "González", "Jefe",9000),
-    new Empleado("David", "Carrillo", "Programador",8000),
-    new Empleado("Daniel", "Farias", "Programador",8000),
-  ]; */
+  empleados:Empleado[]=[];
 
   agregarEmpleadoServicio(empleado: Empleado){
     this.mensaje.muestraMensaje("Persona que se va a agregar: " + "\n"
